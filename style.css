@@ -1,24 +1,17 @@
-*
-{
- /* border: 2px solid red;
-   border-color: red;       */
-}
+
 body
 {
-    margin: 200px;
-    border: 10px solid red;
-    border-color: rgb(0, 247, 255);
-    padding-left: 450px ;
-    border-radius:0%;
+    margin: 500px;
+    border:2px solid grey;
+    /* border-color: rgb(0, 247, 255); */
+    padding-left: 140px ;
+    border-radius:15px;
+    
     
     
 }
 
-.Allign
-{
-   
-    
-}
+
 .twitterKiBird
 {
     padding-left: 65px;
@@ -31,52 +24,59 @@ body
     display: flex;
     
 }
-.icons
-{
-   display: flex;
-    flex-direction: column;
-    
 
-    border-color: brown;
-    border-radius: 100px ;
-    justify-content: center;
-}
-.google
+.googlee
 {
     display: inline;
-    align-content: center;
-   
-    height: 95px;
+    width: 275px;
+    font-size: 20px;
+    font-family:Roborto ;
+    height: 45px;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    
+    border: 2px solid grey;
+    margin-bottom: 10px;
     
 }
-.apple
+.applee
 {
-    align-items: center;
-   display: inline;
-    height: 50px;
+    display: inline;
+    width: 275px;
+    font-size: 20px;
+    font-family:Roborto ;
+    height: 45px;
     
-    justify-content: center;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    
+    border: 2px solid grey; 
 }
-.InputPart
+
+.GoogleImage
 {
-    
+    width: 15px;
+    height: 15px;
 }
+.AppleImage
+{
+    width: 35px;
+    height: 35px;
+}
+
 .ProfileInput
 {
-    width: 300px;
-    height: 70px;
-    border: 5px;
+    width: 285px;
+    height: 40px;
+    border: 1px;
     border-style: solid;
-    border-color:aliceblue;
+    border-color:black;
+    border-radius: 7px;
+    margin-bottom: 10px;
 }
-.NextButton
-{
-    
-    
-    
 
-    
-}
 .Next
 {
     width: 300px;
@@ -84,14 +84,6 @@ body
     background-color: black;
     color: aliceblue;
     border-radius: 50px;
-}
-.ForgotButton
-{
-    
-   
-    
-
-    
 }
 .Forgot
 {
@@ -106,4 +98,9 @@ body
     padding-left: 50px;
     display: flex;
    
+}
+.signUp
+{
+    color:rgba(0, 64, 255, 0.534);
+    text-decoration-line: none;
 }
