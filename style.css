@@ -1,0 +1,109 @@
+*
+{
+ /* border: 2px solid red;
+   border-color: red;       */
+}
+body
+{
+    margin: 200px;
+    border: 10px solid red;
+    border-color: rgb(0, 247, 255);
+    padding-left: 450px ;
+    border-radius:0%;
+    
+    
+}
+
+.Allign
+{
+   
+    
+}
+.twitterKiBird
+{
+    padding-left: 65px;
+    height: 75px;
+    width: 100px;
+    
+}
+.container
+{
+    display: flex;
+    
+}
+.icons
+{
+   display: flex;
+    flex-direction: column;
+    
+
+    border-color: brown;
+    border-radius: 100px ;
+    justify-content: center;
+}
+.google
+{
+    display: inline;
+    align-content: center;
+   
+    height: 95px;
+    
+}
+.apple
+{
+    align-items: center;
+   display: inline;
+    height: 50px;
+    
+    justify-content: center;
+}
+.InputPart
+{
+    
+}
+.ProfileInput
+{
+    width: 300px;
+    height: 70px;
+    border: 5px;
+    border-style: solid;
+    border-color:aliceblue;
+}
+.NextButton
+{
+    
+    
+    
+
+    
+}
+.Next
+{
+    width: 300px;
+    height: 45px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 50px;
+}
+.ForgotButton
+{
+    
+   
+    
+
+    
+}
+.Forgot
+{
+    width: 300px;
+    height: 45px;
+    background-color: aliceblue;
+    color: black ;
+    border-radius: 50px;
+}
+.foot
+{
+    padding-left: 50px;
+    display: flex;
+   
+}
